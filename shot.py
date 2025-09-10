@@ -4,7 +4,7 @@ from constants import SHOT_RADIUS
 
 
 class Shot(CircleShape):
-    def __init(self, x, y):
+    def __init(self, x, y, radius):
         super().__init__(x, y, SHOT_RADIUS)
     
     def draw(self, screen):
